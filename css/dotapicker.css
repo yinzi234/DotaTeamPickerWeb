@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+body{
+    background-color: #202223;
+}
+.hero_list{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #aaaaaa;
+}
+.hero_show{
+    margin-top: 10px;
+    width: 32%;
+    border: 1px solid #aaaaaa;
+    float: left;
+    margin-left: 1%;
+}
+.hero_img{
+    width: 15%;
+    height: auto;
+}
+.enemy_img{
+    width: 60px;
+    height: auto;
+}
+.enemy{
+    width: 60px;
+    height: 200px;
+    border: 1px solid #aaaaaa;
+}
+.hero_choose{
+    margin-top: 10px;
+    height: 250px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero_choose h2,.team,.enemy{
+    float: left;
+}
+.hero_choose h2{
+    font-size: 40px;
+    color: #aaaaaa;
+    margin: 0 20px;
+}
+.hero_choose .team{
+    width: 80%;
+}
+.team_list{
+    width: 15%;
+    min-height: 300px;
+    border: 1px solid #aaaaaa;
+    float: left;
+}
+.team_list .img{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.team_list img{
+    width: 100%;
+    height: auto;
+}
+.team_list p{
+     color: #aaa;
+ }
+.team_list .file{
+    width: 100%;
+}
+.team_list .team_show{
+    overflow-y:auto;
+    overflow-x:hidden;
+    width:100%;
+    height:500px;
+}
