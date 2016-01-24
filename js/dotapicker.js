@@ -144,12 +144,12 @@ manage.prototype = {
             html = ['<a href="javascript:void(0)"><img src=' + imgurl + ' class="hero_img"  data-id=' + i + '></a>'].join("");
             $('.list_left').append(html);
         }
-        for (i = 36; i < 73; i++) {
+        for (i = 36; i < 72; i++) {
             imgurl = url + defaults.heroes_bg[i];
             html = ['<a href="javascript:void(0)"><img src=' + imgurl + ' class="hero_img"  data-id=' + i + '></a>'].join("");
             $('.list_middle').append(html);
         }
-        for (i = 73; i < defaults.heroes.length; i++) {
+        for (i = 72; i < defaults.heroes.length; i++) {
             imgurl = url + defaults.heroes_bg[i];
             html = ['<a href="javascript:void(0)"><img src=' + imgurl + ' class="hero_img"  data-id=' + i + '></a>'].join("");
             $('.list_right').append(html);
