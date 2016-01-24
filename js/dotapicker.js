@@ -137,7 +137,7 @@ manage.prototype = {
     //英雄列表
     heroList: function (defaults) {
         var html = '';
-        var url = 'http://www.dotabuff.com/';
+        var url = '/DotaTeamPickerWeb/images/';
         console.log(defaults.heroes);
         for (var i = 0; i < 36; i++) {
             var imgurl = url + defaults.heroes_bg[i];
@@ -158,7 +158,7 @@ manage.prototype = {
     //敌方英雄选择*删除
     enemyChoose: function (defaults) {
         var self = this;
-        var url = 'http://www.dotabuff.com/';
+        var url = '/DotaTeamPickerWeb/images/';
         var html = '';
         var arr = new Array();
         $(document).on('click', '.hero_img', function () {
@@ -228,7 +228,7 @@ manage.prototype = {
         });
     },
     TeamListShow:function(team_list,defaults,list_id){
-        var url = 'http://www.dotabuff.com/';
+        var url = '/DotaTeamPickerWeb/images/';
         var html='';
         $(list_id).empty();
         $.each(team_list, function (i, result) {
